@@ -13,22 +13,10 @@ const Prizing = (props) => {
 
   return (
     <div className="prizing_container">
-      <Carousel
-        showThumbs={false}
-        swipeable={true}
-        showStatus={false}
-        emulateTouch={true}
-        autoFocus={true}
-        showArrows={false}
-      >
-        <div>
-          <img src={PrizingImg} alt="prizing"></img>
-        </div>
-        <div>
-          <img src={CRules} alt="rules"></img>
+          <img src={PrizingImg} style={{height: '100vh'}} alt="prizing"></img>
           <div className="nextBtnWrapper">
             <div className="nextBtn">
-              <button
+              <button className='nxtBtn'
                 onClick={() => {
                   history.push("/collect");
                 }}
@@ -38,8 +26,6 @@ const Prizing = (props) => {
             </div>
           </div>
         </div>
-      </Carousel>
-    </div>
   );
 };
 

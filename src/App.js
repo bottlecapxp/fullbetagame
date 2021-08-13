@@ -14,7 +14,7 @@ import Game from './Pages/game'
 
 function App() {
 return (
-<Router>
+<Router basename={process.env.PUBLIC_URL}>
   <Switch>
     <Route path='/' exact strict component={Home} />
     <Route path='/prizing' exact strict component={Prizing} />

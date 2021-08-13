@@ -112,6 +112,7 @@ button#next {
   border: none;
   width: 50px;
   align-self: flex-end;
+  margin-right: 5vw;
 }
 
 button#prizes {

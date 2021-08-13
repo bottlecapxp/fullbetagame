@@ -91,11 +91,14 @@ button:hover {
 }
 .nextBtn{
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100vw;
+    margin-top: 13.5vh;
+}
+.nxtBtn{
+margin-right: 5vw;
 }
 
 .gameWrapper{
