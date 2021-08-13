@@ -110,7 +110,7 @@ button#next {
   color: #f6ba10;
   font-size: 1rem;
   border: none;
-  width: 50px;
+  width: auto;
   align-self: flex-end;
   margin-right: 5vw;
 }
