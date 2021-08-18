@@ -1,0 +1,49 @@
+import React from "react";
+import { useHistory } from "react-router-dom";
+import "./Pages.css";
+import Header from "../components/header.js";
+import BulletPoint from "../components/bulletpoint.js";
+
+const Terms = (props) => {
+  let history = useHistory();
+
+  return (
+    <div className="terms_container">
+      <Header title="TERMS AND CONDITIONS" />
+      <BulletPoint point="1. Sponsor. The Sapporo Enter to Win Home Music Studio Contest (“Contest”) is sponsored by Sleeman Breweries Ltd. (“Sponsor”)." />
+      <BulletPoint point="2. Contest Period: The Contest will begin at 12:01 am on August 16, 2021 and close at 11:59 PM on December 1st, 2021 (“Contest Period”). " />
+      <BulletPoint point="3. Prizes" />
+      <BulletPoint point="(a) Grand Prize. There is one (1) Grand Prize available to be won by random draw. The Grand Prize includes: a Roland DJ Controller, KRKClassic Powered Speakers, Urban Ears Headphones, and two thousanddollars ($2000) in cash (“Grand Prize”). Total Grand Prize valued at$5000." />
+      <BulletPoint point="(b) Tiered Prizes. There are two thousand one hundred and twenty (2120) Tiered Prizes available to be won by participating in gameplay (“Playto Win”). Tiered Prizes include: wireless ear bud headphones, t-shirts,trucker hats, wind breaker jackets, urban ears headphones, Roland DJControllers (each, a “Tiered Prize”). Tiered Prizes range in value from$3 to $2,100.  Prize availability: approximately ### Tiered Prizes from $3 to $5 value; ### Tiered Prizes from $50 to $100 value; ### TieredPrizes at $2,100 value." />
+      <BulletPoint point="4. Conditions. The Contest is open to residents of Ontario of legal drinking ageat the time of entry. Notwithstanding the foregoing, the Contest is not opento: (a) employees, agents, or representatives of the Sponsor ananybusiness, company, fiduciary or other legal entity controlled by or affiliated with the Sponsor, their promotional agencies, the Prize supplier (the “Contest Parties”); (b) the immediate family members (brothers, sisters,children, parents) or spouses of the foregoing, or any person with whom theforegoing are domiciled; or (c) provincial liquor licensees and their employees. The provincial liquor agency is not connected with this Contest in any mannerwhatsoever, and is not liable in any way whatsoever in regard to any matterwhich relates to this Contest." />
+      <BulletPoint point="5. How to Enter. One (1) entry per IP address.  All entrants who participate inthe Contest according to this section and these Rules automatically receiveone (1) entry for the Grand Prize when they submit an Entry form. Allentrants who participate in Play to Win will also be eligible to play the Contestgame for a chance to win a Tiered Prize.  At different Play to Win game levels(Level 1, Level 2 and Level 3), players may accept the Tiered Prize if one isoffered to them in the game, OR keep playing at a higher Level for a chanceat a higher-value Tiered Prize." />
+      <BulletPoint point="(a) Entry with purchase of one specially marked case of Sapporo beer. Enter the Contest by completing and submitting an Entry form, including the correct answer to a math skill-testing question, togetherwith the QR code from the specially marked case of Sapporo beer, atwww.sapporocontest.ca (the “Contest Website”)." />
+      <BulletPoint point="(b) No purchase entry. To participate in the Contest without purchasing a case of Sapporo beer, mail a legible, handwritten, original letter of atleast one hundred (100) words explaining why you would like to win aPrize, accompanied by your name, age, address (including city or townand postal code), email address, and telephone number with areacode, to “Sapporo Home Music Studio” c/o Sleeman Breweries, 551Clair Rd. W, Guelph, On N1L 0H7. Upon validation of the letter, a codewill be sent to you (the “Code”). Enter the Contest by completing andsubmitting an Entry form, including the correct answer to a math skill-testing question, together with the Code provided, at the ContestWebsite. . You may submit one (1) letter per day during the ContestPeriod, with different text for each letter. Letters may be mailed untilten (10) days before the end of the Contest Period (see section 1 ofthese Contest Rules)." />
+      <BulletPoint point="6.Chances of Winning." />
+      <BulletPoint point="(a) Grand Prize. The chances of winning the Grand Prize depend on the number of eligible entries received during the Contest Period." />
+      <BulletPoint point="(b) Tiered Prizes.  Tiered Prizes are offered randomly within each Play to Win Level.  Chances of winning any given Tiered Prize at each Play toWin Level depend on playing skill, the number of games played, andthe selections made during each game during the Contest Period.Chances of winning decrease as Play to Win Level increases." />
+      <BulletPoint point="7. Awarding Prizes." />
+      <BulletPoint point="(a) Grand Prize. A random draw for the Grand Prize Home Music Studio will be held at approximately 2pm on December 1, 2021, at the Sponsor’soffices. The selected contestant will be contacted by phone or emailand will be informed of the procedure to claim the Prize. The selected contestant may be required to provide proof of identity and age, and to sign and return a waiver and release form within the time period required by the Sponsor." />
+      <BulletPoint point="(b) Tiered  Prizes. Each Tiered Prize will be awarded instantly, withinstructions on how to claim the Prize, when the entrant accepts the Prize. Tiered Prizes must be claimed [by December 31, 2021] [within60 days]." />
+      <BulletPoint point="If a contestant (i) does not comply with these Contest rules; (ii) has not provided the correct answer to the skill-testing question; (iii) does not claim the Prize according to this section; or (iv) refuses the Prize, then the contestant may not be declared a winner.Sponsor reserves the right, at its sole and absolute discretion, to make the Prize available again to be won, in which case, the foregoing provisions of this section shall apply to such newcontestant." />
+      <BulletPoint point="8. Acceptance of Prize. Each Prize must be accepted as awarded and is not subject to transfer, exchange or substitution for an award of cash or otherwise, except that the Sponsor reserves the right to substitute any Prize, in whole or in part, for another prize of equivalent or greater value if any Prize is not available for any reason whatsoever." />
+      <BulletPoint point="9. Contest Rules and Sponsor Decisions. By entering the Contest, entrants agree to abide by the Contest Rules and decisions of the Sponsor, which are final." />
+      <BulletPoint point="10. Personal Information. By entering this Contest, entrants consent to the collection, use and disclosure of their personal information for the purposesof administering the Contest and in accordance with the Sponsor’s privacy policy available on the Contest Website. By accepting a Prize, winners consent to the use and disclosure to the public of their first name, place of residence (city, province), statements about the Contest, and/or images for publicity purposes in connection with the Contest in any media or formats, without further notice, permission or compensation." />
+      <BulletPoint point="11. Limitations of Liability. Without limiting the release referenced in section 6. above, and for greater certainty, the Contest Parties will not be liable for: a)any   incomplete   or   inaccurate   information,   whether   caused   by   ContestWebsite users or by any equipment or programming associated with or usedin the Contest, or by any technical or human error which may occur in theprocessing of entries; b) the theft, loss, destruction or unauthorized accessto, or alteration of entries or the Contest Website; c) any problems with, ortechnical  malfunctions  of,  telephone networks or lines, computer  online systems, servers or providers, computer equipment, software, viruses or bugs; d) any failure of any e-mail or entry to be received by or from the  Sponsor for any reason including but not limited to traffic congestion on the Internet or on any website or combination thereof; e) damage to an entrant’s or other person’s system occasioned by participation or uploading or downloading of materials in this Contest; or (f) any use of the entrant’s personal information as set out in section 10." />
+      <BulletPoint point="12. Indemnification. All contestants and all persons attempting to participate in the Contest hereby indemnify the Contest Parties against any damage or loss they may sustain in connection with their participation in, or attempt to participate in, the Contest." />
+      <BulletPoint point="13. Errors. Any QR codes or other entry codes containing or presenting errors will be cancelled. Under no circumstances will the Sponsor be required to distribute more Prizes than indicated in these Contest Rules." />
+      <BulletPoint point="14. Right to Cancel, Suspend or Modify. The Sponsor reserves the right to cancel, suspend or modify the Contest at any time, without notice, if a factor disrupts the proper conduct of the Contest, consistent with these Rules. Without limiting the generality of the foregoing, the Sponsor reserves the right to cancel the Contest in the case of error, particularly in production, distribution or printing, or the occurrence of any other event giving rise to claims exceeding the number of Prizes contemplated under these Rules." />
+      <BulletPoint point="15. Applicable Laws.  These Contest rules are subject to all applicable federal, provincial and municipal laws." />
+      <BulletPoint point="Sapporo is a registered trademark of Sleeman Breweries Limited." />
+      <button
+        onClick={() => {
+          history.push("/collect");
+        }}
+      >
+        NEXT
+      </button>
+    </div>
+  );
+};
+
+export default Terms;

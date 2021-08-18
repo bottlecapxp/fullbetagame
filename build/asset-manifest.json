@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fullbetagame/static/css/main.42c0fc41.chunk.css",
+    "main.css": "/fullbetagame/static/css/main.0fd592d5.chunk.css",
     "main.js": "/fullbetagame/static/js/main.50c67a3b.chunk.js",
     "main.js.map": "/fullbetagame/static/js/main.50c67a3b.chunk.js.map",
     "runtime-main.js": "/fullbetagame/static/js/runtime-main.5db4c6f1.js",
@@ -12,7 +12,7 @@
     "static/js/3.2a43a24f.chunk.js.map": "/fullbetagame/static/js/3.2a43a24f.chunk.js.map",
     "index.html": "/fullbetagame/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/fullbetagame/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.42c0fc41.chunk.css.map": "/fullbetagame/static/css/main.42c0fc41.chunk.css.map",
+    "static/css/main.0fd592d5.chunk.css.map": "/fullbetagame/static/css/main.0fd592d5.chunk.css.map",
     "static/js/2.26959750.chunk.js.LICENSE.txt": "/fullbetagame/static/js/2.26959750.chunk.js.LICENSE.txt",
     "static/media/components.css": "/fullbetagame/static/media/age_background.02365b28.jpg",
     "static/media/cRules.72fdcfaf.png": "/fullbetagame/static/media/cRules.72fdcfaf.png",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.5db4c6f1.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.26959750.chunk.js",
-    "static/css/main.42c0fc41.chunk.css",
+    "static/css/main.0fd592d5.chunk.css",
     "static/js/main.50c67a3b.chunk.js"
   ]
 }

@@ -11,6 +11,7 @@ import Prize from './Pages/prize'
 import ThanksForPlaying from './Pages/thanksforplaying'
 import ThanksForEntry from './Pages/thanksforentry'
 import Game from './Pages/game'
+import Prizing1 from './Pages/prizing-1'
 
 function App() {
 return (
@@ -18,6 +19,7 @@ return (
   <Switch>
     <Route path='/' exact strict component={Home} />
     <Route path='/prizing' exact strict component={Prizing} />
+    <Route path='/prizing-1' exact strict component={Prizing1} />
     <Route path='/game' exact strict component={Game} />
     <Route path='/rules' exact strict component={Rules} />
     <Route path='/terms' exact strict component={Terms} />
