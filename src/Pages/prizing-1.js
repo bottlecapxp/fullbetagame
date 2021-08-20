@@ -2,15 +2,15 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import "./Pages.css";
 import Logo from "../images/sapporo-logo.png"
-import Tshirt from "../images/tshirt-icon.svg"
-import Earbuds from "../images/earbuds-icon.svg"
-import Headphones from "../images/headphones-icon.svg"
-import Stereo from "../images/stereo-icon.svg"
-import Chance from "../images/chance-to-win.svg"
-import Hat from "../images/hat-icon.svg"
-import Tier3 from "../images/tier-3-title-mobile.svg"
-import Tier2 from "../images/tier-2-title-mobile.svg"
-import Tier1 from "../images/tier-1-title-mobile.svg"
+import Tshirt from "../images/tshirt_icon.png"
+import Earbuds from "../images/earbuds.png"
+import Headphones from "../images/HeadPhone.png"
+import Stereo from "../images/controller.png"
+import Jacket from "../images/jacket.png"
+import Hat from "../images/trucker_hat.png"
+import Tier3 from "../images/tier-3.svg"
+import Tier2 from "../images/tier-2.svg"
+import Tier1 from "../images/tier-1.svg"
 
 const Prizing1 = (props) => {
     let history = useHistory()
@@ -25,6 +25,7 @@ const Prizing1 = (props) => {
                 <img src={Tshirt} alt="T-shirt icon" />
                 <img src={Earbuds} alt="Earbuds icon" />
                 <img src={Headphones} alt="Headphones icon" />
+                <img src={Jacket} alt="Stereo icon" />
                 <img src={Stereo} alt="Stereo icon" />
                 {/* <img src={Chance} id="chance" alt="Chance To Win" /> */}
             </div>
