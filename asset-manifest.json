@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/fullbetagame/static/css/main.12d023fb.chunk.css",
-    "main.js": "/fullbetagame/static/js/main.49035d35.chunk.js",
-    "main.js.map": "/fullbetagame/static/js/main.49035d35.chunk.js.map",
+    "main.css": "/fullbetagame/static/css/main.e62af31a.chunk.css",
+    "main.js": "/fullbetagame/static/js/main.bd0b0b44.chunk.js",
+    "main.js.map": "/fullbetagame/static/js/main.bd0b0b44.chunk.js.map",
     "runtime-main.js": "/fullbetagame/static/js/runtime-main.5db4c6f1.js",
     "runtime-main.js.map": "/fullbetagame/static/js/runtime-main.5db4c6f1.js.map",
     "static/css/2.ed1298f3.chunk.css": "/fullbetagame/static/css/2.ed1298f3.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.2a43a24f.chunk.js.map": "/fullbetagame/static/js/3.2a43a24f.chunk.js.map",
     "index.html": "/fullbetagame/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/fullbetagame/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.12d023fb.chunk.css.map": "/fullbetagame/static/css/main.12d023fb.chunk.css.map",
+    "static/css/main.e62af31a.chunk.css.map": "/fullbetagame/static/css/main.e62af31a.chunk.css.map",
     "static/js/2.e35225e0.chunk.js.LICENSE.txt": "/fullbetagame/static/js/2.e35225e0.chunk.js.LICENSE.txt",
     "static/media/Pages.css": "/fullbetagame/static/media/web-background.2971a9c5.svg",
     "static/media/HeadPhone.9f429500.png": "/fullbetagame/static/media/HeadPhone.9f429500.png",
@@ -41,7 +41,7 @@
     "static/js/runtime-main.5db4c6f1.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.e35225e0.chunk.js",
-    "static/css/main.12d023fb.chunk.css",
-    "static/js/main.49035d35.chunk.js"
+    "static/css/main.e62af31a.chunk.css",
+    "static/js/main.bd0b0b44.chunk.js"
   ]
 }
