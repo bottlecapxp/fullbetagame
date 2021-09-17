@@ -7,19 +7,8 @@ const Levels = (props) => {
 
   return (
     <div className="levels_container">
-      <button id="next"
-        onClick={() => {
-          history.push("/ready");
-        }}
-      >
-        NEXT
-      </button>
-      <p>
-        AS YOU COMPLETE LEVELS YOU CAN CHOOSE TO SPIN FOR A PRIZE OR CONTINUE ON
-        COLLECTING FOR A CHANCE AT BIGGER, BETTER PRIZES.
-      </p>
-      <button id="prizes" onClick={() => {history.push("/prizing-1")}}>- VIEW PRIZES -</button>
-      <button id="terms" onClick={() => {history.push("/terms")}}>- CONTEST TERMS | CONDITIONS -</button>
+      <button  id="prizes" onClick={() => {history.push("/prizing-1")}}>- VIEW PRIZES -</button>
+      <button  id="terms" onClick={() => {history.push("/terms")}}>- CONTEST TERMS | CONDITIONS -</button>
     </div>
   );
 };

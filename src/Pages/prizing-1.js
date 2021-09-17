@@ -35,6 +35,7 @@ const Prizing1 = (props) => {
             <div className="tier-2_container">
                 <img src={Tshirt} alt="T-shirt icon" />
                 <img src={Earbuds} alt="Earbuds icon" />
+                <img src={Jacket} alt="Stereo icon" />
                 <img src={Hat} alt="Hat icon" />
                 {/* <img src={Chance} id="chance" alt="Chance To Win" /> */}
             </div>
@@ -49,7 +50,7 @@ const Prizing1 = (props) => {
             <div className="tier-1-title_container">
                 <img src={Tier1} alt="Tier 1 title" />
             </div>
-            <button id="next-btn" onClick={() => {history.push('/collect')}}>NEXT</button>
+            <button id="next-btn-prizing" onClick={() => {history.push('/collect')}}>LET'S GO!</button>
         </div>
     );
   };

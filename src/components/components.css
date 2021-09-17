@@ -119,11 +119,12 @@ transform: rotateX(90deg);
 }
 
 .levels_container {
-  background-color: #000000;
-  width: 80%;
+  width: 60%;
   padding: 0.75rem;
   display: flex;
   flex-direction: column;
+  margin-bottom: 0px;
+  transform: translateY(20px);
 }
 
 button#next {
@@ -138,14 +139,15 @@ button#next {
 button#prizes {
   background-color: transparent;
   color: #f6ba10;
-  font-size: 1rem;
+  font-size: 0.7rem;
   border: none;
+  margin-bottom: 0.3em;
 }
 
 button#terms {
   background-color: transparent;
   color: #f6ba10;
-  font-size: 1rem;
+  font-size: 0.7rem;
   border: none;
 }
 

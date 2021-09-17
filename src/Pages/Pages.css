@@ -44,8 +44,9 @@ button:hover {
 .home_container img,
 .prizing-header_container img {
     width: 125px !important;
+}.inst-header_container {
+    width: 100% !important;
 }
-
 .win_container {
     color: #FFFFFF;
     font-family: 'Druk Bold';
@@ -142,7 +143,7 @@ button:hover {
     max-width: 500px;
 }
 
-#next-btn {
+#next-btn-prizing {
     background-color: #F7BB16;
     color: #FFFFFF;
     border: none;
@@ -152,6 +153,33 @@ button:hover {
     width: 50%;
     height: 35px;
     margin: 1.5rem 0;
+    margin-top: 0px !important;
+}
+.p_now_1{
+    background: url(../images/Next.svg) no-repeat center center;
+    background-size: cover;
+    border: none;
+    font-family: "Druk Medium";
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    width: 80%;
+    height: 48px;
+    /* margin: 1.5rem 0; */
+    margin: 0px !important;
+    transform: translateY(10px);
+}
+.p_now_2{
+    background: url(../images/LetsGo.svg) no-repeat center center;
+    background-size: cover;
+    border: none;
+    font-family: "Druk Medium";
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    width: 80%;
+    height: 48px;
+    /* margin: 1.5rem 0; */
+    margin: 0px !important;
+    transform: translateY(10px);
 }
 
 @media screen and (min-width: 780px) {
@@ -200,12 +228,12 @@ button:hover {
 .collect_container,
 .ready_container {
     min-height: 100vh;
-    background: url(../images/sapporo-can.png);
+    /* background: url(../images/sapporo-can.png); */
     background-color: #333333;
-    background-blend-mode: multiply;
-    background-size: contain;
+    /* background-blend-mode: multiply; */
+    /* background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     text-align: center;
     color: #FFFFFF;
     display: flex;

@@ -12,6 +12,7 @@ import ThanksForPlaying from './Pages/thanksforplaying'
 import ThanksForEntry from './Pages/thanksforentry'
 import Game from './Pages/game'
 import Prizing1 from './Pages/prizing-1'
+import CollectNext from './Pages/CollectNext'
 
 function App() {
 return (
@@ -24,6 +25,7 @@ return (
     <Route path='/rules' exact strict component={Rules} />
     <Route path='/terms' exact strict component={Terms} />
     <Route path='/collect' exact strict component={Collect} />
+    <Route path='/collect-next' exact strict component={CollectNext} />
     <Route path='/ready' exact strict component={Ready} />
     <Route path='/draw' exact strict component={Draw} />
     <Route path='/prize' exact strict component={Prize} />
