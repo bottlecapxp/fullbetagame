@@ -18,7 +18,8 @@ const sumbitInfo = (e) =>{
     },
     body: JSON.stringify({
     'fullname': `${e.target.firstName.value} ${e.target.lastName.value}`,
-    'address': `${e.target.addressOne.value} ${e.target.city.value}`,
+    'address': `${e.target.addressOne.value}`,
+    'city': `${e.target.city.value}`,
     'postal_code': `${e.target.postalCode.value}`,
     'province': `${e.target.province.value}`,
     'email': `${e.target.email.value}`,
@@ -27,8 +28,10 @@ const sumbitInfo = (e) =>{
     })
   }).then((resp) => resp.json())
   .then((respr) =>{
+    console.log(respr)
     const status = respr.status
-    if(parseInt(status) === 200){
+    if(parseInt(status) == 200){
+      console.log(status)
       var templateParams = {
         to_name: `${e.target.firstName.value}`,
         reply_to: `${e.target.email.value}`,
@@ -42,10 +45,10 @@ const sumbitInfo = (e) =>{
       }, (error) => {
           console.log(error.text)
       })
-
+      
       setTimeout(()=>{
         history.push('/ThanksForEntry')
-      }, 1500)
+      }, 1000)
   
     }
   })

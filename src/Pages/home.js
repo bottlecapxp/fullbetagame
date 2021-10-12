@@ -12,7 +12,7 @@ const Home = (props) => {
   let history = useHistory()
 
   useEffect(()=>{
-if(localStorage.getItem('revisit') === true){
+if(localStorage.getItem('revisit') == 'true'){
   fetch("https://bottlecapdev.pythonanywhere.com/visits", {
     method: "POST",
     mode: "cors",
@@ -21,15 +21,15 @@ if(localStorage.getItem('revisit') === true){
       "Access-Control-Allow-Origin": "*",
     },
     body: JSON.stringify({
-    'visited': true,
+    'visited': 'true',
     })
   }).then((resp) => resp.json())
   .then((respr)=>{
     console.log(JSON.stringify(respr))
   })
 }
-else{
-  localStorage.setItem('revisit', true)
+if(localStorage.getItem('revisit') == null || localStorage.getItem('revisit') == undefined){
+  localStorage.setItem('revisit', 'true')
   fetch("https://bottlecapdev.pythonanywhere.com/visits", {
     method: "POST",
     mode: "cors",
@@ -38,7 +38,7 @@ else{
       "Access-Control-Allow-Origin": "*",
     },
     body: JSON.stringify({
-    'visited': false,
+    'visited': 'false',
     })
   }).then((resp) => resp.json())
   .then((respr)=>{
@@ -48,7 +48,7 @@ else{
   },[])
 
   const load_game = () => {
-    window.location.replace('https://sapporo.worldcast.io/cast/agkV54XR2BO3dpq8Zy371ALoKWy6mwPG0Zlz/')
+    window.location.replace('https://bottlecapxp.github.io/sapporogame/')
   }
   const milkcom = () => {
     window.location.replace('https://milk.com/')
