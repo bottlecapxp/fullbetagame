@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/fullbetagame/static/css/main.e62af31a.chunk.css",
-    "main.js": "/fullbetagame/static/js/main.7390d30e.chunk.js",
-    "main.js.map": "/fullbetagame/static/js/main.7390d30e.chunk.js.map",
+    "main.js": "/fullbetagame/static/js/main.fe06a197.chunk.js",
+    "main.js.map": "/fullbetagame/static/js/main.fe06a197.chunk.js.map",
     "runtime-main.js": "/fullbetagame/static/js/runtime-main.e81387ea.js",
     "runtime-main.js.map": "/fullbetagame/static/js/runtime-main.e81387ea.js.map",
     "static/css/2.ed1298f3.chunk.css": "/fullbetagame/static/css/2.ed1298f3.chunk.css",
-    "static/js/2.bb018a27.chunk.js": "/fullbetagame/static/js/2.bb018a27.chunk.js",
-    "static/js/2.bb018a27.chunk.js.map": "/fullbetagame/static/js/2.bb018a27.chunk.js.map",
+    "static/js/2.c05c9f1c.chunk.js": "/fullbetagame/static/js/2.c05c9f1c.chunk.js",
+    "static/js/2.c05c9f1c.chunk.js.map": "/fullbetagame/static/js/2.c05c9f1c.chunk.js.map",
     "static/js/3.b5231744.chunk.js": "/fullbetagame/static/js/3.b5231744.chunk.js",
     "static/js/3.b5231744.chunk.js.map": "/fullbetagame/static/js/3.b5231744.chunk.js.map",
     "index.html": "/fullbetagame/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/fullbetagame/static/css/2.ed1298f3.chunk.css.map",
     "static/css/main.e62af31a.chunk.css.map": "/fullbetagame/static/css/main.e62af31a.chunk.css.map",
-    "static/js/2.bb018a27.chunk.js.LICENSE.txt": "/fullbetagame/static/js/2.bb018a27.chunk.js.LICENSE.txt",
+    "static/js/2.c05c9f1c.chunk.js.LICENSE.txt": "/fullbetagame/static/js/2.c05c9f1c.chunk.js.LICENSE.txt",
     "static/media/Pages.css": "/fullbetagame/static/media/web-background.2971a9c5.svg",
     "static/media/HeadPhone.9f429500.png": "/fullbetagame/static/media/HeadPhone.9f429500.png",
     "static/media/Inst_Title.16910bdc.svg": "/fullbetagame/static/media/Inst_Title.16910bdc.svg",
@@ -40,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.e81387ea.js",
     "static/css/2.ed1298f3.chunk.css",
-    "static/js/2.bb018a27.chunk.js",
+    "static/js/2.c05c9f1c.chunk.js",
     "static/css/main.e62af31a.chunk.css",
-    "static/js/main.7390d30e.chunk.js"
+    "static/js/main.fe06a197.chunk.js"
   ]
 }
