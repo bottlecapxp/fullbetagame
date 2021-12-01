@@ -1,0 +1,2 @@
+(this.webpackJsonpsapporogame=this.webpackJsonpsapporogame||[]).push([[16],{58:function(a,e,s){"use strict";s.r(e);s(0);var p=s(1);e.default=function(a){return Object(p.jsx)("div",{className:"gameWrapper",children:Object(p.jsx)("iframe",{src:"https://bottlecapxp.github.io/sapporogame/",className:"game_frame"})})}}}]);
+//# sourceMappingURL=16.4422b776.chunk.js.map
